@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"C:/API_server\" pull --rebase origin main)",
+      "Bash(git -C \"C:/API_server\" push)",
+      "Bash(git -C \"C:/API_server\" rm -f busan-bus/config.json)",
+      "Bash(git -C \"C:/API_server\" rebase --continue)"
+    ]
+  }
+}
