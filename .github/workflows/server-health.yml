@@ -12,12 +12,19 @@ jobs:
     steps:
       - name: 서버 ping 및 상태 판단
         id: check
+        env:
+          HMAC_KEY: ${{ secrets.HMAC_KEY }}
         run: |
           START_MS=$(date +%s%3N)
 
+          TIMESTAMP=$(date +%s)
+          SIGNATURE=$(echo -n "$TIMESTAMP" | openssl dgst -sha256 -hmac "$HMAC_KEY" | awk '{print $2}')
+
           HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
             --max-time 10 \
-            "https://jiugae-api-779661147142.asia-northeast3.run.app/" \
+            -H "X-Timestamp: $TIMESTAMP" \
+            -H "X-Signature: $SIGNATURE" \
+            "${{ secrets.SERVER_URL }}" \
             2>/dev/null || echo "000")
 
           END_MS=$(date +%s%3N)
