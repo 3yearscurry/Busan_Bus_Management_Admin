@@ -2,8 +2,6 @@
 
 [![API 서버 상태](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/3yearscurry/d179f0445e5df8a51b85c45c5caeda35/raw/server-status.json)](https://github.com/3yearscurry/Busan_Bus_Arrival_Information/releases)
 
-26.04.29 ~ 26.04.30 까지 서버 안정화 작업으로 인하여 API 사용이 중지됩니다.
-
 부산광역시 버스 도착 정보를 실시간으로 조회하는 Windows 데스크톱 앱입니다.
 
 ## 다운로드
