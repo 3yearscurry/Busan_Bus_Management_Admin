@@ -4,6 +4,10 @@
 
 부산광역시 버스 도착 정보를 실시간으로 조회하는 Windows 데스크톱 앱입니다.
 
+## 요구 사항
+최소 : Windows 8.1 이상
+권장 : Windows 10 이상
+
 ## 다운로드
 
 [최신 릴리즈](https://github.com/3yearscurry/Busan_Bus_Arrival_Information/releases/latest)에서 설치 파일을 받을 수 있습니다.
