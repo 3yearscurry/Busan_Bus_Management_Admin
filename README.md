@@ -5,9 +5,9 @@
 부산광역시 버스 도착 정보를 실시간으로 조회하는 Windows 데스크톱 앱입니다.
 
 ## 요구 사항
-최소 : Windows 8.1 이상
+최소 : Windows 8.1
 
-권장 : Windows 10 이상
+권장 : Windows 10 또는 Windows 11
 
 ## 다운로드
 
