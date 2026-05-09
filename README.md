@@ -8,6 +8,7 @@
 최소 : Windows 8.1
 
 권장 : Windows 10 21H2 이상
+
        Windows 11
 
 ## 다운로드
