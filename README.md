@@ -7,7 +7,8 @@
 ## 요구 사항
 최소 : Windows 8.1
 
-권장 : Windows 10 21H2 또는 Windows 11
+권장 : Windows 10 21H2 이상
+       Windows 11
 
 ## 다운로드
 
