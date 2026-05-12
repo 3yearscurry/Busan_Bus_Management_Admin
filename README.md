@@ -12,6 +12,9 @@
 
 - Mac : macOS 12 Monterey 이상
 
+## Mac에서 "'BusanBus'은(는) 손상되었기 때문에 열 수 없습니다" 해결 방법
+터미널에서 xattr -cr /Applications/BusanBus.app 하고 재실행
+
 ## 다운로드
 
 [최신 릴리즈](https://github.com/3yearscurry/Busan_Bus_Arrival_Information/releases/latest)에서 설치 파일을 받을 수 있습니다.
