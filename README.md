@@ -1,4 +1,4 @@
-# 부산광역시 실시간 버스 안내기
+# 부산 버스 도착 정보 시스템
 
 [![API 서버 상태](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/3yearscurry/d179f0445e5df8a51b85c45c5caeda35/raw/server-status.json)](https://github.com/3yearscurry/Busan_Bus_Arrival_Information/releases)
 
