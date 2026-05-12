@@ -7,7 +7,10 @@
 ## 요구 사항
 최소 : Windows 8.1
 
-권장 : Windows 10 21H2 이상 또는 Windows 11
+권장 : 
+- Windows : Windows 10 21H2 이상 또는 Windows 11
+
+- Mac : macOS 12 Monterey 이상
 
 ## 다운로드
 
